@@ -1,0 +1,63 @@
+{
+    "errors": [
+        {
+            "message": "PriceEngineQuery/price: call to memoSandboxData with key price:US:undefined:undefined:undefined:[{\"quantity\":1,\"offerId\":\"05af9ab1d2dc4b78ada8b2f09724da20\"}] did not return sandbox id from sandboxIdFn",
+            "locations": [
+                {
+                    "line": 30,
+                    "column": 21
+                }
+            ],
+            "correlationId": "582435d0-3767-11ec-bc2d-f3555eede570",
+            "serviceResponse": "{\"errorStatus\":500}",
+            "stack": null,
+            "path": [
+                "PriceEngine",
+                "price"
+            ]
+        }
+    ],
+    "data": {
+        "Catalog": {
+            "catalogOffer": {
+                "namespace": "wombat",
+                "effectiveDate": "2021-09-21T13:00:00.000Z",
+                "id": "05af9ab1d2dc4b78ada8b2f09724da20",
+                "customAttributes": [
+                    {
+                        "key": "com.epicgames.app.blacklist",
+                        "value": "[]"
+                    },
+                    {
+                        "key": "publisherName",
+                        "value": "Saber Interactive"
+                    },
+                    {
+                        "key": "developerName",
+                        "value": "Saber Interactive"
+                    },
+                    {
+                        "key": "com.epicgames.app.productSlug",
+                        "value": "world-war-z"
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "4446fc9443324b7f8f742fb913ad9ba3",
+                        "status": "ACTIVE",
+                        "customAttributes": [
+                            {
+                                "key": "SupportedPlatforms",
+                                "value": "Windows"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "PriceEngine": {
+            "price": null
+        }
+    },
+    "extensions": {}
+}
